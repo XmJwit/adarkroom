@@ -40,9 +40,14 @@
 			} catch(e) {}
 		}
 		// if a language different than english requested, load all translations
-		if(lang && lang != 'en'){
-			document.write('<script src="lang/'+lang+'/strings.js"><\/script>');
-			document.write('<link rel="stylesheet" type="text/css" href="lang/'+lang+'/main.css" \/>');
+		if(lang){
+			if(lang != 'en'){
+				document.write('<script src="lang/'+lang+'/strings.js"><\/script>');
+				document.write('<link rel="stylesheet" type="text/css" href="lang/'+lang+'/main.css" \/>');
+			}
+		} else {
+			document.write('<script src="lang/zh_cn/strings.js"><\/script>');
+			document.write('<link rel="stylesheet" type="text/css" href="lang/zh_cn/main.css" \/>');
 		}
 	</script>
 	
@@ -89,15 +94,7 @@
   <link rel="stylesheet" type="text/css" href="css/fabricator.css" />
 	
 	<script src="script/localization.js"></script>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-606P6J79WH"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'G-606P6J79WH');
-	</script>
 	
 </head>
 <body>
