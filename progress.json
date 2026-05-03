@@ -2,8 +2,8 @@
   "projectName": "A Dark Room React Rewrite",
   "startDate": "2026-05-03",
   "currentPhase": "phase-2",
-  "overallProgress": 9.3,
-  "lastUpdated": "2026-05-03T01:30:00Z",
+  "overallProgress": 12.0,
+  "lastUpdated": "2026-05-03T02:00:00Z",
   "phaseProgress": [
     {
       "phaseId": "phase-1",
@@ -66,10 +66,10 @@
         {
           "taskId": "2-1",
           "title": "迁移Engine核心逻辑",
-          "status": "not-started",
-          "progressPercentage": 0,
+          "status": "in-progress",
+          "progressPercentage": 50,
           "completedDate": null,
-          "notes": ""
+          "notes": "已实现gameEngine.js服务基础，需要完成模块初始化"
         },
         {
           "taskId": "2-2",
@@ -466,10 +466,10 @@
   ],
   "summary": {
     "totalTasks": 54,
-    "completedTasks": 5,
-    "inProgressTasks": 0,
-    "notStartedTasks": 49,
-    "overallProgressPercentage": 9.3,
-    "estimatedRemainingHours": 96.4
+    "completedTasks": 6,
+    "inProgressTasks": 1,
+    "notStartedTasks": 47,
+    "overallProgressPercentage": 12.0,
+    "estimatedRemainingHours": 93.2
   }
 }
