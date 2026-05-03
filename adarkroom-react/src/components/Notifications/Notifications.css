@@ -1,0 +1,123 @@
+/* Notifications Component Styles */
+
+#notifications {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  max-height: 50%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.notify-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.4) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  pointer-events: none;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px;
+  gap: 5px;
+}
+
+.notification {
+  padding: 10px 15px;
+  margin: 5px 0;
+  background-color: rgba(30, 30, 30, 0.95);
+  color: #aaa;
+  border: 1px solid #555;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0;
+  animation: slideIn 0.3s ease forwards;
+  pointer-events: auto;
+  cursor: default;
+  max-width: 600px;
+  word-wrap: break-word;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+/* Notification Types */
+
+.notification-info {
+  color: #aaa;
+  border-color: #555;
+}
+
+.notification-success {
+  color: #5f5;
+  border-color: #3a3;
+  background-color: rgba(20, 40, 20, 0.95);
+}
+
+.notification-warning {
+  color: #fa0;
+  border-color: #850;
+  background-color: rgba(40, 30, 10, 0.95);
+}
+
+.notification-error {
+  color: #f55;
+  border-color: #a33;
+  background-color: rgba(40, 10, 10, 0.95);
+}
+
+.notification-system {
+  color: #0af;
+  border-color: #058;
+  background-color: rgba(10, 20, 40, 0.95);
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+  #notifications {
+    max-height: 60%;
+  }
+
+  .notifications-list {
+    padding: 10px;
+  }
+
+  .notification {
+    max-width: 100%;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}

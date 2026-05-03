@@ -1,0 +1,498 @@
+{
+  "projectName": "A Dark Room React Rewrite",
+  "description": "Complete React rewrite of the minimalist text adventure game",
+  "version": "1.0.0",
+  "phases": [
+    {
+      "phaseId": "phase-1",
+      "phaseName": "项目初始化和基础架构",
+      "description": "设置React项目结构和核心基础设施",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "1-1",
+          "title": "初始化React项目和工具配置",
+          "description": "使用Vite或Create React App初始化React项目，配置必要的开发工具",
+          "priority": "critical",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": []
+        },
+        {
+          "taskId": "1-2",
+          "title": "创建项目目录结构",
+          "description": "创建src/components, src/hooks, src/utils, src/stores, src/styles等目录结构",
+          "priority": "critical",
+          "estimatedHours": 1,
+          "status": "not-started",
+          "dependencies": ["1-1"]
+        },
+        {
+          "taskId": "1-3",
+          "title": "设置状态管理系统(Redux/Context API)",
+          "description": "实现游戏全局状态管理，替代原始JavaScript的StateManager",
+          "priority": "critical",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["1-2"]
+        },
+        {
+          "taskId": "1-4",
+          "title": "导入和适配现有资源",
+          "description": "复制css, img, audio, lang文件夹到React项目，调整引用路径",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["1-2"]
+        },
+        {
+          "taskId": "1-5",
+          "title": "设置多语言系统",
+          "description": "重新实现多语言支持，将JS翻译文件转换为React可用的格式",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["1-3"]
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-2",
+      "phaseName": "核心游戏引擎和状态",
+      "description": "实现游戏的核心逻辑和引擎，不包括UI组件",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "2-1",
+          "title": "迁移Engine核心逻辑",
+          "description": "将engine.js的核心逻辑转换为React hooks/utilities",
+          "priority": "critical",
+          "estimatedHours": 4,
+          "status": "not-started",
+          "dependencies": ["1-3"]
+        },
+        {
+          "taskId": "2-2",
+          "title": "实现StateManager状态管理",
+          "description": "重新实现state_manager.js的全部功能，确保支持嵌套状态管理",
+          "priority": "critical",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["1-3"]
+        },
+        {
+          "taskId": "2-3",
+          "title": "实现事件系统",
+          "description": "迁移events.js系统，实现事件发布/订阅机制",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["2-2"]
+        },
+        {
+          "taskId": "2-4",
+          "title": "实现计时器/定时器系统",
+          "description": "创建useTimer hook实现游戏中的各种定时器逻辑",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "2-5",
+          "title": "实现存档/加载系统",
+          "description": "实现localStorage存档和读档功能，支持状态序列化",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["2-2"]
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-3",
+      "phaseName": "UI组件开发 - 基础界面",
+      "description": "开发基础UI组件和主要页面框架",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "3-1",
+          "title": "创建主应用框架组件(App.jsx)",
+          "description": "实现主应用布局，包含header、main content、notifications区域",
+          "priority": "critical",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["1-2"]
+        },
+        {
+          "taskId": "3-2",
+          "title": "实现Header组件",
+          "description": "迁移header.js功能，显示游戏标题和基本信息",
+          "priority": "high",
+          "estimatedHours": 1.5,
+          "status": "not-started",
+          "dependencies": ["3-1"]
+        },
+        {
+          "taskId": "3-3",
+          "title": "实现Button基础组件",
+          "description": "创建可复用的Button组件，替代原始Button.js",
+          "priority": "high",
+          "estimatedHours": 1,
+          "status": "not-started",
+          "dependencies": ["3-1"]
+        },
+        {
+          "taskId": "3-4",
+          "title": "实现Notifications系统组件",
+          "description": "创建通知组件系统，支持多种通知类型",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["3-1", "2-3"]
+        },
+        {
+          "taskId": "3-5",
+          "title": "实现基础样式和响应式设计",
+          "description": "集成CSS文件，确保响应式布局正常工作",
+          "priority": "medium",
+          "estimatedHours": 1.5,
+          "status": "not-started",
+          "dependencies": ["1-4"]
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-4",
+      "phaseName": "游戏场景模块 - Room(房间)",
+      "description": "实现房间（火焰、建筑等）模块",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "4-1",
+          "title": "迁移Room核心逻辑",
+          "description": "将room.js的所有逻辑转换为React hooks和utilities",
+          "priority": "critical",
+          "estimatedHours": 4,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "4-2",
+          "title": "创建Room UI组件",
+          "description": "实现房间场景的UI，显示火焰、木材、库存等",
+          "priority": "critical",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["4-1", "3-3"]
+        },
+        {
+          "taskId": "4-3",
+          "title": "实现建筑系统",
+          "description": "创建建筑选择和建造界面，支持trap、cart、hut、lodges等",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["4-2"]
+        },
+        {
+          "taskId": "4-4",
+          "title": "实现工作人员系统",
+          "description": "实现worker管理，显示人口、工作效率等",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["4-2"]
+        },
+        {
+          "taskId": "4-5",
+          "title": "实现火焰温度系统",
+          "description": "实现火焰的温度变化、冷却机制等",
+          "priority": "medium",
+          "estimatedHours": 1.5,
+          "status": "not-started",
+          "dependencies": ["4-1"]
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-5",
+      "phaseName": "游戏场景模块 - Outside(外部冒险)",
+      "description": "实现外部冒险和狩猎模块",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "5-1",
+          "title": "迁移Outside核心逻辑",
+          "description": "将outside.js的所有逻辑转换为React hooks",
+          "priority": "critical",
+          "estimatedHours": 4,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "5-2",
+          "title": "创建Outside UI组件",
+          "description": "实现狩猎场景UI，显示生物、资源等",
+          "priority": "critical",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["5-1", "3-3"]
+        },
+        {
+          "taskId": "5-3",
+          "title": "实现战斗系统",
+          "description": "实现与野生动物的战斗机制，包括伤害计算、胜败判定",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["5-2"]
+        },
+        {
+          "taskId": "5-4",
+          "title": "实现饥渴系统",
+          "description": "实现食物、水、能量管理系统",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["5-1"]
+        },
+        {
+          "taskId": "5-5",
+          "title": "实现事件系统(遇遇、随机事件)",
+          "description": "实现encounters.js的事件逻辑",
+          "priority": "medium",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["5-2", "2-3"]
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-6",
+      "phaseName": "游戏场景模块 - World/Path/Ship/Space",
+      "description": "实现世界地图、路径、太空船和太空探索模块",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "6-1",
+          "title": "迁移World核心逻辑",
+          "description": "将world.js逻辑转换为React，实现世界地图展示",
+          "priority": "critical",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "6-2",
+          "title": "迁移Path核心逻辑",
+          "description": "将path.js逻辑转换为React，实现路径探险",
+          "priority": "critical",
+          "estimatedHours": 4,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "6-3",
+          "title": "创建World/Path UI组件",
+          "description": "实现世界地图和路径探险的UI界面",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["6-1", "6-2"]
+        },
+        {
+          "taskId": "6-4",
+          "title": "迁移Ship核心逻辑",
+          "description": "将ship.js逻辑转换为React",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "6-5",
+          "title": "迁移Space核心逻辑",
+          "description": "将space.js逻辑转换为React，实现太空探索",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "6-6",
+          "title": "创建Ship/Space UI组件",
+          "description": "实现太空船和太空探索的UI界面",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["6-4", "6-5"]
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-7",
+      "phaseName": "高级系统实现",
+      "description": "实现制造系统、声望系统、评分等高级功能",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "7-1",
+          "title": "迁移Fabricator系统",
+          "description": "将fabricator.js逻辑转换为React，实现制造机制",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "7-2",
+          "title": "迁移Prestige系统",
+          "description": "将prestige.js逻辑转换为React，实现声望/重置机制",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "7-3",
+          "title": "迁移Scoring系统",
+          "description": "将scoring.js逻辑转换为React，实现评分机制",
+          "priority": "medium",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "7-4",
+          "title": "实现所有事件类型",
+          "description": "完成events/目录下所有事件类型的迁移",
+          "priority": "high",
+          "estimatedHours": 4,
+          "status": "not-started",
+          "dependencies": ["2-3"]
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-8",
+      "phaseName": "音频系统和完善",
+      "description": "实现音频系统，打磨细节",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "8-1",
+          "title": "迁移音频系统",
+          "description": "将audio.js和audioLibrary.js转换为React hooks",
+          "priority": "medium",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["2-1"]
+        },
+        {
+          "taskId": "8-2",
+          "title": "创建音频控制UI组件",
+          "description": "实现音频开关和音量控制组件",
+          "priority": "medium",
+          "estimatedHours": 1,
+          "status": "not-started",
+          "dependencies": ["8-1"]
+        },
+        {
+          "taskId": "8-3",
+          "title": "实现响应式设计调整",
+          "description": "确保移动设备兼容性，处理屏幕尺寸适配",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["3-5"]
+        },
+        {
+          "taskId": "8-4",
+          "title": "性能优化",
+          "description": "优化Re-render、useCallback、useMemo等性能问题",
+          "priority": "medium",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-9",
+      "phaseName": "测试和部署",
+      "description": "完整的功能测试和修复，最终部署",
+      "status": "not-started",
+      "tasks": [
+        {
+          "taskId": "9-1",
+          "title": "功能点对比测试 - Room模块",
+          "description": "逐个测试Room模块的所有功能与原版的一致性",
+          "priority": "critical",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["4-5"]
+        },
+        {
+          "taskId": "9-2",
+          "title": "功能点对比测试 - Outside模块",
+          "description": "逐个测试Outside模块的所有功能与原版的一致性",
+          "priority": "critical",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["5-5"]
+        },
+        {
+          "taskId": "9-3",
+          "title": "功能点对比测试 - World/Path/Ship/Space",
+          "description": "逐个测试地图和探险模块功能与原版的一致性",
+          "priority": "high",
+          "estimatedHours": 3,
+          "status": "not-started",
+          "dependencies": ["6-6"]
+        },
+        {
+          "taskId": "9-4",
+          "title": "功能点对比测试 - 高级系统",
+          "description": "测试Fabricator、Prestige、Scoring系统",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["7-4"]
+        },
+        {
+          "taskId": "9-5",
+          "title": "修复发现的问题",
+          "description": "根据测试结果修复所有发现的BUG",
+          "priority": "high",
+          "estimatedHours": 5,
+          "status": "not-started",
+          "dependencies": ["9-1", "9-2", "9-3", "9-4"]
+        },
+        {
+          "taskId": "9-6",
+          "title": "浏览器兼容性测试",
+          "description": "测试在不同浏览器中的兼容性",
+          "priority": "medium",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["9-5"]
+        },
+        {
+          "taskId": "9-7",
+          "title": "最终优化和部署",
+          "description": "最后的优化调整，准备部署到生产环境",
+          "priority": "high",
+          "estimatedHours": 2,
+          "status": "not-started",
+          "dependencies": ["9-6"]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalTasks": 54,
+    "totalEstimatedHours": 106,
+    "phases": 9
+  }
+}

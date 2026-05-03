@@ -1,0 +1,475 @@
+{
+  "projectName": "A Dark Room React Rewrite",
+  "startDate": "2026-05-03",
+  "currentPhase": "phase-2",
+  "overallProgress": 9.3,
+  "lastUpdated": "2026-05-03T01:30:00Z",
+  "phaseProgress": [
+    {
+      "phaseId": "phase-1",
+      "phaseName": "项目初始化和基础架构",
+      "status": "completed",
+      "completedTasks": 5,
+      "totalTasks": 5,
+      "progressPercentage": 100,
+      "tasks": [
+        {
+          "taskId": "1-1",
+          "title": "初始化React项目和工具配置",
+          "status": "completed",
+          "progressPercentage": 100,
+          "completedDate": "2026-05-03T01:00:00Z",
+          "notes": "使用Vite初始化React项目，安装Redux、Zustand等依赖"
+        },
+        {
+          "taskId": "1-2",
+          "title": "创建项目目录结构",
+          "status": "completed",
+          "progressPercentage": 100,
+          "completedDate": "2026-05-03T01:05:00Z",
+          "notes": "创建components, hooks, utils, stores, styles等目录"
+        },
+        {
+          "taskId": "1-3",
+          "title": "设置状态管理系统(Redux/Context API)",
+          "status": "completed",
+          "progressPercentage": 100,
+          "completedDate": "2026-05-03T01:15:00Z",
+          "notes": "实现Zustand store、eventBus、gameConstants和useGameState hooks"
+        },
+        {
+          "taskId": "1-4",
+          "title": "导入和适配现有资源",
+          "status": "completed",
+          "progressPercentage": 100,
+          "completedDate": "2026-05-03T01:20:00Z",
+          "notes": "复制css、img、audio、lang文件到public目录"
+        },
+        {
+          "taskId": "1-5",
+          "title": "设置多语言系统",
+          "status": "completed",
+          "progressPercentage": 100,
+          "completedDate": "2026-05-03T01:25:00Z",
+          "notes": "创建localizationStore和useLocalization hook"
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-2",
+      "phaseName": "核心游戏引擎和状态",
+      "status": "in-progress",
+      "completedTasks": 0,
+      "totalTasks": 5,
+      "progressPercentage": 10,
+      "tasks": [
+        {
+          "taskId": "2-1",
+          "title": "迁移Engine核心逻辑",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "2-2",
+          "title": "实现StateManager状态管理",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "2-3",
+          "title": "实现事件系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "2-4",
+          "title": "实现计时器/定时器系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "2-5",
+          "title": "实现存档/加载系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-3",
+      "phaseName": "UI组件开发 - 基础界面",
+      "status": "not-started",
+      "completedTasks": 0,
+      "totalTasks": 5,
+      "progressPercentage": 0,
+      "tasks": [
+        {
+          "taskId": "3-1",
+          "title": "创建主应用框架组件(App.jsx)",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "3-2",
+          "title": "实现Header组件",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "3-3",
+          "title": "实现Button基础组件",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "3-4",
+          "title": "实现Notifications系统组件",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "3-5",
+          "title": "实现基础样式和响应式设计",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-4",
+      "phaseName": "游戏场景模块 - Room(房间)",
+      "status": "not-started",
+      "completedTasks": 0,
+      "totalTasks": 5,
+      "progressPercentage": 0,
+      "tasks": [
+        {
+          "taskId": "4-1",
+          "title": "迁移Room核心逻辑",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "4-2",
+          "title": "创建Room UI组件",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "4-3",
+          "title": "实现建筑系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "4-4",
+          "title": "实现工作人员系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "4-5",
+          "title": "实现火焰温度系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-5",
+      "phaseName": "游戏场景模块 - Outside(外部冒险)",
+      "status": "not-started",
+      "completedTasks": 0,
+      "totalTasks": 5,
+      "progressPercentage": 0,
+      "tasks": [
+        {
+          "taskId": "5-1",
+          "title": "迁移Outside核心逻辑",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "5-2",
+          "title": "创建Outside UI组件",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "5-3",
+          "title": "实现战斗系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "5-4",
+          "title": "实现饥渴系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "5-5",
+          "title": "实现事件系统(遇遇、随机事件)",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-6",
+      "phaseName": "游戏场景模块 - World/Path/Ship/Space",
+      "status": "not-started",
+      "completedTasks": 0,
+      "totalTasks": 6,
+      "progressPercentage": 0,
+      "tasks": [
+        {
+          "taskId": "6-1",
+          "title": "迁移World核心逻辑",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "6-2",
+          "title": "迁移Path核心逻辑",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "6-3",
+          "title": "创建World/Path UI组件",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "6-4",
+          "title": "迁移Ship核心逻辑",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "6-5",
+          "title": "迁移Space核心逻辑",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "6-6",
+          "title": "创建Ship/Space UI组件",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-7",
+      "phaseName": "高级系统实现",
+      "status": "not-started",
+      "completedTasks": 0,
+      "totalTasks": 4,
+      "progressPercentage": 0,
+      "tasks": [
+        {
+          "taskId": "7-1",
+          "title": "迁移Fabricator系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "7-2",
+          "title": "迁移Prestige系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "7-3",
+          "title": "迁移Scoring系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "7-4",
+          "title": "实现所有事件类型",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-8",
+      "phaseName": "音频系统和完善",
+      "status": "not-started",
+      "completedTasks": 0,
+      "totalTasks": 4,
+      "progressPercentage": 0,
+      "tasks": [
+        {
+          "taskId": "8-1",
+          "title": "迁移音频系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "8-2",
+          "title": "创建音频控制UI组件",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "8-3",
+          "title": "实现响应式设计调整",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "8-4",
+          "title": "性能优化",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "phaseId": "phase-9",
+      "phaseName": "测试和部署",
+      "status": "not-started",
+      "completedTasks": 0,
+      "totalTasks": 7,
+      "progressPercentage": 0,
+      "tasks": [
+        {
+          "taskId": "9-1",
+          "title": "功能点对比测试 - Room模块",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "9-2",
+          "title": "功能点对比测试 - Outside模块",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "9-3",
+          "title": "功能点对比测试 - World/Path/Ship/Space",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "9-4",
+          "title": "功能点对比测试 - 高级系统",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "9-5",
+          "title": "修复发现的问题",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "9-6",
+          "title": "浏览器兼容性测试",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        },
+        {
+          "taskId": "9-7",
+          "title": "最终优化和部署",
+          "status": "not-started",
+          "progressPercentage": 0,
+          "completedDate": null,
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalTasks": 54,
+    "completedTasks": 5,
+    "inProgressTasks": 0,
+    "notStartedTasks": 49,
+    "overallProgressPercentage": 9.3,
+    "estimatedRemainingHours": 96.4
+  }
+}

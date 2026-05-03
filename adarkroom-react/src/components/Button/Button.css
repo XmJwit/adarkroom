@@ -1,0 +1,116 @@
+/* Button Component Styles */
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 2px;
+  background-color: #222;
+  color: #ddd;
+  border: 1px solid #555;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  user-select: none;
+  text-align: center;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+.btn:hover:not(.disabled):not(.loading) {
+  background-color: #444;
+  border-color: #777;
+  color: #fff;
+}
+
+.btn:active:not(.disabled):not(.loading) {
+  background-color: #111;
+  border-color: #333;
+}
+
+.btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn.loading {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Button Variants */
+
+.btn-primary {
+  background-color: #0066cc;
+  color: #fff;
+  border-color: #0052a3;
+}
+
+.btn-primary:hover:not(.disabled) {
+  background-color: #0052a3;
+  border-color: #003d7a;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #1e7e34;
+}
+
+.btn-success:hover:not(.disabled) {
+  background-color: #1e7e34;
+  border-color: #145523;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border-color: #c82333;
+}
+
+.btn-danger:hover:not(.disabled) {
+  background-color: #c82333;
+  border-color: #a01d26;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #000;
+  border-color: #e0a800;
+}
+
+.btn-warning:hover:not(.disabled) {
+  background-color: #e0a800;
+  border-color: #b68900;
+}
+
+/* Button Sizes */
+
+.btn-small {
+  padding: 4px 8px;
+  font-size: 12px;
+  min-height: 20px;
+  line-height: 20px;
+}
+
+.btn-large {
+  padding: 12px 24px;
+  font-size: 16px;
+  min-height: 30px;
+  line-height: 30px;
+}
+
+.loading-spinner {
+  display: inline-block;
+  margin-left: 4px;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  0%, 19%, 21%, 39%, 41%, 59%, 61%, 79%, 81%, 100% {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  20%, 40%, 60%, 80% {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
