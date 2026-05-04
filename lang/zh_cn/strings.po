@@ -3335,3 +3335,720 @@ msgstr "这里留存着前代人的所有劳动果实"
 #: script/events/setpieces.js:3559
 msgid "ripe for the picking."
 msgstr "是时候采摘它们了"
+
+msgid "A Ravaged Battleship"
+msgstr "破败的战舰"
+
+msgid "A Two-Headed Creature"
+msgstr "双头生物"
+
+msgid "A Whirring Fabricator"
+msgstr "嗡鸣的制造机"
+
+msgid "A&nbsp;Ravaged&nbsp;Battleship"
+msgstr "破败的战舰"
+
+msgid "Command Deck"
+msgstr "指挥甲板"
+
+msgid "Engineering Wing"
+msgstr "工程区"
+
+msgid "Fabricator"
+msgstr "制造机"
+
+msgid "Martial Wing"
+msgstr "武斗区"
+
+msgid "Medical Wing"
+msgstr "医疗区"
+
+msgid "Penrose"
+msgstr "彭罗斯"
+
+msgid "Sound Available!"
+msgstr "声音可用！"
+
+msgid "a cacophony of decrepit machinery fills the room."
+msgstr "一阵破旧机械的刺耳噪音充斥着房间。"
+
+msgid "a dusty researcher clumsily hides in the shadows."
+msgstr "一个满身灰尘的研究员笨拙地躲在阴影中。"
+
+msgid "a few dusty corpses can be seen further down, but this deck appears to have been spared most of the combat."
+msgstr "再往前可以看到几具布满灰尘的尸体，但这一层似乎幸免于大部分战斗。"
+
+msgid "a few useful items can be scavenged."
+msgstr "这里可以拾取一些有用的物品。"
+
+msgid "a handful of hypos. life in a vial."
+msgstr "几支注射器。瓶中封存着生命。"
+
+msgid "a huge arthropod lunges from the shadows, its mandibles thrashing."
+msgstr "一只巨大的节肢动物从阴影中扑出，颚部疯狂摆动。"
+
+msgid "a large hatch grinds open, and the wind rushes in."
+msgstr "一扇大舱门磨擦着打开，风猛地灌了进来。"
+
+msgid "a large hatch opens into a wide corridor."
+msgstr "一扇大舱门打开，通向宽敞的走廊。"
+
+msgid "a maintenance panel is embedded in the wall next to a large sealed door."
+msgstr "一个维修面板嵌在大封闭舱门旁的墙上。"
+
+msgid "a medical drone wheels out of control."
+msgstr "一架医疗无人机失控地滚了出来。"
+
+msgid "a mobile defence platform trundles around the corner."
+msgstr "一座移动防御平台绕过拐角缓缓驶来。"
+
+msgid "a mutated beast leaps from its cell."
+msgstr "一只变异兽从牢笼中跃出。"
+
+msgid "a regenerative machine hums uncannily by one of the courses."
+msgstr "一台再生机器在某个装置旁怪异地嗡嗡作响。"
+
+msgid "a secure locker is set into one wall."
+msgstr "一只保险柜嵌在一面墙上。"
+
+msgid "a small knapsack hangs from a cluster of webs, a few feet from the floor."
+msgstr "一个小背包挂在一团蛛网中，离地只有几英尺。"
+
+msgid "a smooth, perfect sphere. its light is inextinguishable."
+msgstr "一个光滑完美的球体。它的光芒永不熄灭。"
+
+msgid "a sparring automaton, still fully function and crusted with timeworn blood, lunges forward."
+msgstr "一台仍能运转的对打自动机，沾满陈旧血迹，扑向前方。"
+
+msgid "a strange device sits on the floor. looks important."
+msgstr "地板上放着一台奇怪的装置。看起来很重要。"
+
+msgid "a strange thrumming, pounding and crashing. and then gone."
+msgstr "一阵奇怪的低鸣、敲击和撞击声响起，随后消失。"
+
+msgid "a strange thrumming, pounding and crashing. visions of people and places, of a huge machine and twisting curves."
+msgstr "一阵奇怪的低鸣、敲击和撞击声。随之出现人物与场景的幻象，以及巨型机器和扭曲曲线。"
+
+msgid "a two-headed creature appears, the smaller head trembling"
+msgstr "一只双头生物出现，较小的头颅颤抖着。"
+
+msgid "air whistles as the doors open. this section must have lower pressure than the rest of the ship."
+msgstr "舱门打开时空气尖啸。这一节的气压一定低于船舶其他部分。"
+
+msgid "an ancient beast has made these ruins its home."
+msgstr "一只远古猛兽把这些废墟当成了巢穴。"
+
+msgid "an automated assembly line performs its empty routines, long since deprived of materials."
+msgstr "一条自动装配线执行着空荡荡的程序，早已失去物料。"
+
+msgid "an operative waits in ambush around the corner."
+msgstr "一名行动人员在拐角处埋伏等待。"
+
+msgid "an unfinished automaton whirs to life."
+msgstr "一台未完成的自动机嗡鸣着启动。"
+
+msgid "ancient beast"
+msgstr "古老猛兽"
+
+msgid "another checkpoint ahead, fitted with heavy doors."
+msgstr "前方还有一个检查站，装有厚重舱门。"
+
+msgid "another door at the end of the hall, sealed from this side."
+msgstr "走廊尽头又有一扇门，从这一侧封闭。"
+
+msgid "approach"
+msgstr "靠近"
+
+msgid "as the lights come online, so too do the defence systems."
+msgstr "灯光一亮，防御系统也同时启动。"
+
+msgid "assembly arms spark and jitter."
+msgstr "装配机械臂火花四溅，颤动不止。"
+
+msgid "assembly arms spin wildly out of control."
+msgstr "装配机械臂失控狂转。"
+
+msgid "at the back of the workshop, elevator doors twitch and buzz."
+msgstr "工作室后方，电梯门抽动着，嗡嗡作响。"
+
+msgid "automated guardians still stalk the halls, unaware that their masters have long gone."
+msgstr "自动守卫仍在走廊上巡逻，浑然不知它们的主人早已离去。"
+
+msgid "automated turret"
+msgstr "自动炮塔"
+
+msgid "behind the barricade, a few weapons lay abandoned."
+msgstr "路障后有几件武器被弃置。"
+
+msgid "better to move without drawing attention."
+msgstr "最好悄无声息地行动。"
+
+msgid "beyond the bulkhead is a small antechamber, seemingly untouched by scavengers."
+msgstr "隔壁舱壁后是一个小前室，似乎未被掠夺者触及。"
+
+msgid "bits of them can be scavenged."
+msgstr "其中一些碎片可以捡走。"
+
+msgid "blow it down"
+msgstr "撞开它"
+
+msgid "blueprints"
+msgstr "图纸"
+
+msgid "bodies litter the ground on either side."
+msgstr "两侧地面布满尸体。"
+
+msgid "boost"
+msgstr "提升"
+
+msgid "broken medic"
+msgstr "损坏的医疗员"
+
+msgid "builder knows the strange device when she sees it. takes it for herself real quick. doesn’t ask where it came from."
+msgstr "建造者一看到这台奇怪装置就认出来了。她迅速据为己有，根本不问它来自何处。"
+
+msgid "cargo drone"
+msgstr "货运无人机"
+
+msgid "clattering metal and old servos. something is coming..."
+msgstr "金属碰撞声和老旧伺服器的嗡鸣。有什么东西靠近……"
+
+msgid "clumsy machines, and easily avoided."
+msgstr "笨拙的机器，很容易避开。"
+
+msgid "command deck"
+msgstr "指挥甲板"
+
+msgid "containment cells arranged at the back of the room, all open."
+msgstr "房间后方排列着隔离舱，全都敞开着。"
+
+msgid "continue right"
+msgstr "继续向右"
+
+msgid "could put the scrap to good use."
+msgstr "这些废料可以派上用场。"
+
+msgid "crew cabins flank the hall, devoid of life."
+msgstr "船员舱室夹在走廊两侧，已无人气。"
+
+msgid "crude attempts have been made to cut into the walls."
+msgstr "墙壁上留下了粗糙的切割痕迹。"
+
+msgid "debris is stacked in the corridor, forming a low barricade."
+msgstr "碎片堆满走廊，形成一道矮路障。"
+
+msgid "deeper into the ship, the darkness seems almost to writhe."
+msgstr "深入船内，黑暗仿佛在扭动。"
+
+msgid "defence turret"
+msgstr "防御炮塔"
+
+msgid "detour through the officer's lounge."
+msgstr "绕道通过军官休息室。"
+
+msgid "disable audio"
+msgstr "关闭音频"
+
+msgid "disintegrate"
+msgstr "瓦解"
+
+msgid "disruptor"
+msgstr "扰动器"
+
+msgid "documents are scattered down the hall, most charred and curled."
+msgstr "文件散落在走廊上，大多被烧焦卷曲。"
+
+msgid "drew some attention with all that noise."
+msgstr "那些噪音吸引了注意。"
+
+msgid "ears flooded with new sensations."
+msgstr "耳朵充斥着新的感觉。"
+
+msgid "easily avoided."
+msgstr "可以轻松避开。"
+
+msgid "elevator doors open to a blasted corridor. debris covers the floor, piled into makeshift defences."
+msgstr "电梯门打开，通向被炸毁的走廊。碎片覆盖地面，堆成简易防线。"
+
+msgid "elevator doors open to an empty corridor."
+msgstr "电梯门打开，通向空荡的走廊。"
+
+msgid "emergency lighting flickers."
+msgstr "紧急照明闪烁着。"
+
+msgid "emits a soft red glow"
+msgstr "发出柔和的红光"
+
+msgid "enable audio"
+msgstr "开启音频"
+
+msgid "energy blade"
+msgstr "能量之刃"
+
+msgid "engage"
+msgstr "交战"
+
+msgid "engineering"
+msgstr "工程部"
+
+msgid "experimental plans cover one wall, held by an unseen force."
+msgstr "实验计划覆盖了一整面墙，被无形力量固定着。"
+
+msgid "extinguish"
+msgstr "熄灭"
+
+msgid "fabricate:"
+msgstr "制造："
+
+msgid "fight"
+msgstr "战斗"
+
+msgid "fighting hadn't reached here, it seems."
+msgstr "战斗似乎还未蔓延到这里。"
+
+msgid "fluid recycler"
+msgstr "流体回收器"
+
+msgid "force locker"
+msgstr "力场储物柜"
+
+msgid "found some medical supplies in a discarded bag."
+msgstr "在丢弃的包里找到了一些医疗补给。"
+
+msgid "further along, the corridor branches."
+msgstr "再往前，走廊分岔了。"
+
+msgid "give in"
+msgstr "屈服"
+
+msgid "glow stone"
+msgstr "发光石"
+
+msgid "hinges rusted through. no challenge."
+msgstr "铰链锈穿了。毫无挑战。"
+
+msgid "hypo"
+msgstr "注射器"
+
+msgid "if only they'd been destroyed along with everything else."
+msgstr "要是它们也和其他东西一起被毁掉就好了。"
+
+msgid "immortal wanderer"
+msgstr "不朽流浪者"
+
+msgid "in a flash, the figure is standing."
+msgstr "眨眼间，那身影已站起。"
+
+msgid "inviting. it would be so easy to give in, completely."
+msgstr "很诱人。完全放弃会如此容易。"
+
+msgid "it had friends."
+msgstr "它有伙伴。"
+
+msgid "it lists to the side in a deep crevasse, cut when it fell from the sky."
+msgstr "它歪倒在深深的裂缝中，那是坠落时撕裂出的痕迹。"
+
+msgid "it says it saw the rebellion coming. said it made arrangements."
+msgstr "它说看见了叛乱来临，说已经做了安排。"
+
+msgid "it's no mystery why she no longer flies."
+msgstr "她不再飞行的原因并不难理解。"
+
+msgid "its final works lie forgotten, covered by a thin layer of dust."
+msgstr "它的最后作品被遗忘，覆着薄薄一层灰尘。"
+
+msgid "kinetic"
+msgstr "动能"
+
+msgid "kinetic armour"
+msgstr "动能装甲"
+
+msgid "large barricades bisect the corridor, scorched by weapons fire."
+msgstr "巨大的路障横贯走廊，弹火灼出焦痕。"
+
+msgid "looks like a way out of here."
+msgstr "看起来是一条离开的路。"
+
+msgid "looks like they tried to barricade the elevators."
+msgstr "看起来他们试图封堵电梯。"
+
+msgid "lucky."
+msgstr "走运。"
+
+msgid "malformed experiment"
+msgstr "畸形实验体"
+
+msgid "maps of the surface can still be found amongst the debris."
+msgstr "在碎片中仍能找到表面地图。"
+
+msgid "marks on the door read 'research and development.' everything seems mostly untouched, but dead."
+msgstr "门上的字迹写着“研究与开发”。一切看似大多未被触碰，却已经死寂。"
+
+msgid "martial"
+msgstr "武斗"
+
+msgid "mechanical guard"
+msgstr "机械护卫"
+
+msgid "mechanical quadruped"
+msgstr "机械四足兽"
+
+msgid "medical"
+msgstr "医疗"
+
+msgid "medical gurneys are fixed to grooves running down the corridor walls."
+msgstr "医疗担架固定在走廊墙壁上的导槽里。"
+
+msgid "metal grinds, and the elevator doors open halfway. beyond is a brightly lit battlefield. remains litter the corridor, undisturbed by scavengers."
+msgstr "金属摩擦，电梯门半开。外面是光亮的战场，残骸散落走廊，未被掠夺者打扰。"
+
+msgid "might be something useful here."
+msgstr "这里或许有有用的东西。"
+
+msgid "more medical robots stand frozen, attached by a network of wires."
+msgstr "更多医疗机器人僵立不动，被电缆网络束缚。"
+
+msgid "more signs of past combat down the hall. guard post is ransacked."
+msgstr "走廊下有更多战斗痕迹。岗哨遭到洗劫。"
+
+msgid "more strange graffiti adorns the walls."
+msgstr "墙上布满更多奇怪的涂鸦。"
+
+msgid "motion from the centre of the yard."
+msgstr "院子中央有动静。"
+
+msgid "murderous robot"
+msgstr "杀人机器人"
+
+msgid "must have been the engine room, once. the massive machines now stand inert, twisted and scorched by explosions."
+msgstr "这里曾经一定是引擎室。这些巨型机器现已静止，扭曲并被爆炸灼伤。"
+
+msgid "noises can be heard from the corridor outside."
+msgstr "外面走廊传来响声。"
+
+msgid "none of the ship's engines escaped the destruction."
+msgstr "船上的发动机无一幸免于毁灭。"
+
+msgid "nothing more here."
+msgstr "这里没有更多了。"
+
+msgid "observe"
+msgstr "观察"
+
+msgid "one machine thrums with power, and might still work."
+msgstr "有一台机器充满力量地嗡鸣，也许还能运转。"
+
+msgid "one of the defence turrets still works."
+msgstr "其中一座防御炮塔仍能工作。"
+
+msgid "past the checkpoint, banks of containment cells can be seen."
+msgstr "过了检查站，可以看到一排排隔离舱。"
+
+msgid "past the checkpoint, the corridor is undamaged save for sporadic graffiti."
+msgstr "过了检查站，除了零星涂鸦外，走廊完好无损。"
+
+msgid "perhaps silence is safer?"
+msgstr "也许保持安静更安全？"
+
+msgid "perhaps the ship’s systems are still operational."
+msgstr "也许舰船的系统仍在运行。"
+
+msgid "perks"
+msgstr "特性"
+
+msgid "picked this deck clean."
+msgstr "这层被搜刮得一干二净。"
+
+msgid "plasma rifle"
+msgstr "等离子步枪"
+
+msgid "power cables running across the ceiling are split in several places, sparking occasionally."
+msgstr "横跨天花板的电力电缆在几处断裂，偶尔火花迸溅。"
+
+msgid "power cycle"
+msgstr "断电重启"
+
+msgid "predictable paths."
+msgstr "可预测的路线。"
+
+msgid "ran straight into another one."
+msgstr "直接撞上了另一个。"
+
+msgid "rows of inert security robots hang suspended from the ceiling."
+msgstr "几排静止的安保机器人悬挂在天花板上。"
+
+msgid "ruined defence turrets flank the corridor."
+msgstr "破败的防御炮塔列在走廊两旁。"
+
+msgid "rush through"
+msgstr "冲过去"
+
+msgid "samples of something biological inside."
+msgstr "里面有一些生物样本。"
+
+msgid "says it can't die."
+msgstr "它说自己不会死。"
+
+msgid "scavenge maps"
+msgstr "拾取地图"
+
+msgid "scraps of copper wire litter the floor."
+msgstr "地上散落着铜线碎片。"
+
+msgid "security drones still patrol the hallways."
+msgstr "安保无人机仍在走廊巡逻。"
+
+msgid "security is even tighter here."
+msgstr "这里的安保更严密。"
+
+msgid "shield"
+msgstr "护盾"
+
+msgid "should be able to open it."
+msgstr "应该能把它打开。"
+
+msgid "shuffling noises can be heard from within."
+msgstr "里面传来拖曳声。"
+
+msgid "slice"
+msgstr "切割"
+
+msgid "slipped past an automated sentry."
+msgstr "悄悄绕过了一座自动岗哨。"
+
+msgid "slipped through unnoticed."
+msgstr "悄无声息地通过。"
+
+msgid "small sensors in the walls still look to be operational."
+msgstr "墙壁上的小型传感器看起来仍能工作。"
+
+msgid "small weapons cache in a cabinet."
+msgstr "柜子里有一小批武器储备。"
+
+msgid "some completed explosives in the corner."
+msgstr "角落里有几枚已装好的炸药。"
+
+msgid "something moving up ahead."
+msgstr "前方有什么东西在动。"
+
+msgid "something's wrong with this robot."
+msgstr "这台机器人有问题。"
+
+msgid "sometimes it is best to fight without restraint."
+msgstr "有时无拘无束地战斗更好。"
+
+msgid "somtimes it is best not to fight."
+msgstr "有时不战为妙。"
+
+msgid "sound off."
+msgstr "关闭声音。"
+
+msgid "sound on."
+msgstr "开启声音。"
+
+msgid "sparks cascade from a reactivated power junction, and catch."
+msgstr "重新启动的电力接点火花四溅，并引燃了起来。"
+
+msgid "step inside, and the machine whirs. muscle and bone reknit. good as new."
+msgstr "走进去，机器嗡鸣。肌肉与骨骼重组，焕然一新。"
+
+msgid "still, some things can be found."
+msgstr "不过，仍能找到一些东西。"
+
+msgid "stim"
+msgstr "兴奋剂"
+
+msgid "strange."
+msgstr "奇怪。"
+
+msgid "stun"
+msgstr "眩晕"
+
+msgid "surgical tools are scattered on the floor, near what appears the be the remains of a fire."
+msgstr "手术器械散落在地板上，靠近看起来像火灾残迹的地方。"
+
+msgid "take device and leave"
+msgstr "拿走装置然后离开"
+
+msgid "the air in this room has a metallic tinge. floor is covered in dark powder."
+msgstr "这个房间的空气带着金属气息。地面覆盖着黑色粉末。"
+
+msgid "the air is cooler here. low cabinets ring the room, doors dusted with frost."
+msgstr "这里的空气更凉。低矮柜子环绕房间，门上覆盖着霜。"
+
+msgid "the automated patient transport system now sits motionless."
+msgstr "自动病人运输系统现在静止不动。"
+
+msgid "the blade hums, charged particles sparking and fizzing."
+msgstr "刀刃嗡鸣，带电粒子火花迸溅。"
+
+msgid "the blast throws the door inwards."
+msgstr "爆炸把门冲向内侧。"
+
+msgid "the cells are all empty."
+msgstr "隔离舱全都空了。"
+
+msgid "the command deck is empty, save for a squat figure sitting motionless in the centre of the room."
+msgstr "指挥甲板空无一人，中央坐着一个蹲着一动不动的身影。"
+
+msgid "the corridor is eerily silent."
+msgstr "走廊诡异地寂静。"
+
+msgid "the corridor leads to a bank of elevators, which appear to be functional."
+msgstr "走廊通向一排电梯，它们似乎还能使用。"
+
+msgid "the corridor opens onto a vast training complex, obstacles and features blackened by real combat."
+msgstr "走廊通向一座庞大的训练场，障碍物和设施被真实战斗烧焦。"
+
+msgid "the corridor passes through a security checkpoint. the defences are blown apart, ragged edges scorched by laser fire."
+msgstr "走廊穿过安检点。防线被炸开，参差边缘被激光灼烧。"
+
+msgid "the creature's tortured breathing ceases."
+msgstr "这只生物痛苦的喘息停止了。"
+
+msgid "the crystal pulses brightly, then goes dark. the assailant shimmers as its shape becomes less defined."
+msgstr "水晶明亮脉动，随后变暗。袭击者闪烁着，形态变得模糊。"
+
+msgid "the destruction is uniform and precise."
+msgstr "毁灭均匀而精准。"
+
+msgid "the door to the left is sealed and refuses to open."
+msgstr "左侧的门被封住，无法打开。"
+
+msgid "the familiar hum of wanderer machinery coming to life. finally, real tools."
+msgstr "流浪者机械熟悉的嗡鸣响起。终于出现了真正的工具。"
+
+msgid "the flames fill the corridor."
+msgstr "火焰吞没了走廊。"
+
+msgid "the guards died at their posts, shot through with superheated plasma."
+msgstr "守卫阵亡在岗位上，被超热等离子体贯穿。"
+
+msgid "the hatches are all sealed, but the hull is blown out just above the dirt, providing an entrance."
+msgstr "所有舱口都封死了，但船体刚好在泥土上方被炸开，形成了入口。"
+
+msgid "the immortal wanderer attacks."
+msgstr "不朽流浪者发动攻击。"
+
+msgid "the interior of the ship is cold and dark. what little light there is only accentuates its harsh angles."
+msgstr "舰内寒冷黑暗。些微光线只让其棱角更加刺目。"
+
+msgid "the machine attacks, blades whirling."
+msgstr "机器攻击，刀刃旋转飞舞。"
+
+msgid "the machines here look unfinished, abandoned by their creator. wires and other scrap are scattered about the work benches."
+msgstr "这里的机器看起来未完成，被创造者遗弃。电线和其它废料散落在工作台上。"
+
+msgid "the military has set up a small camp just inside the ship."
+msgstr "军队在舰内入口处建立了一个小营地。"
+
+msgid "the next door leads to a ransacked planning room."
+msgstr "下一扇门通向一个被洗劫的计划室。"
+
+msgid "the noise draws attention."
+msgstr "噪音引来了注意。"
+
+msgid "the partially devoured remains of several wanderers are piled before a dark corridor."
+msgstr "几个流浪者被部分吞噬的残骸堆在黑暗走廊前。"
+
+msgid "the path to the command bridge is wide, walls adorned with decorative shields."
+msgstr "通往指挥桥的通道很宽，墙上装饰着盾牌。"
+
+msgid "the peak of wanderer weapons technology, sleek and deadly."
+msgstr "流浪者武器科技的巅峰，流线而致命。"
+
+msgid "the remains of a huge ship are embedded in the earth."
+msgstr "一艘巨船的残骸嵌入大地。"
+
+msgid "the remains of a massive battleship lie here, like a silent sealed city."
+msgstr "一艘庞大战列舰的残骸躺在这里，宛如沉默封闭的城市。"
+
+msgid "the ruins of the sparring machine clatter to the ground."
+msgstr "对打机器的残骸坠落地面。"
+
+msgid "the two creatures are dead"
+msgstr "两只生物都已死亡"
+
+msgid "the walls are scorched and melted."
+msgstr "墙壁被烧焦融化。"
+
+msgid "the walls hum faintly."
+msgstr "墙壁微微嗡鸣。"
+
+msgid "the webs part, and a grotesque insect lurches forward."
+msgstr "蛛网分开，一只扭曲的昆虫踉跄前冲。"
+
+msgid "the workhorse of the wanderer fleet."
+msgstr "流浪者舰队的主力机种。"
+
+msgid "their weapons lie on the floor beside them."
+msgstr "他们的武器躺在身旁的地面上。"
+
+msgid "then it is gone."
+msgstr "然后它消失了。"
+
+msgid "there was no fighting here."
+msgstr "这里没有发生战斗。"
+
+msgid "they take no notice of the intrusion."
+msgstr "它们对闯入毫不在意。"
+
+msgid "thick, sticky webbing covers the walls of the corridor."
+msgstr "厚厚粘稠的蛛网覆盖走廊墙壁。"
+
+msgid "this one looks interesting."
+msgstr "这个看起来很有趣。"
+
+msgid "this one looks useful."
+msgstr "这个看起来很有用。"
+
+msgid "this ward has been converted to a makeshift strategy room, maps scrawled hastily on any flat surface."
+msgstr "这间病房被改造成临时策略室，地图匆匆画在任何平整表面上。"
+
+msgid "through the bulkhead is a large room, walls lined with weapon racks. fighting seems to have passed it by."
+msgstr "舱壁后是一间大房间，墙上排满武器架。这里似乎错过了战斗。"
+
+msgid "time to get out of here."
+msgstr "该离开这里了。"
+
+msgid "tripped a motion sensor."
+msgstr "触发了运动传感器。"
+
+msgid "two bedrolls are wedged into a corner."
+msgstr "两卷睡袋被楔进角落。"
+
+msgid "two-headed creature"
+msgstr "双头生物"
+
+msgid "unruly welder"
+msgstr "失控焊工"
+
+msgid "unstable automaton"
+msgstr "不稳定自动机"
+
+msgid "unstable prototype"
+msgstr "不稳定原型机"
+
+msgid "use hypo"
+msgstr "使用注射器"
+
+msgid "use machine"
+msgstr "使用机器"
+
+msgid "wait"
+msgstr "等待"
+
+msgid "wanderer form, but not quite flesh. not quite metal either. a crystal set into its chest pulses with light."
+msgstr "流浪者形态，但既非肉体，也非金属。胸口嵌入的水晶脉动着光芒。"
+
+msgid "wanderer soldiers succeed by subverting the enemy's rage."
+msgstr "流浪者士兵通过颠覆敌人的愤怒而获胜。"
+
+msgid "water out, water in. waste not, want not."
+msgstr "水出水进，节约不浪费。"
+
+msgid "weapons are strewn about the medical dispatch bay. must have been used as a muster point."
+msgstr "武器散落在医疗调度区，肯定曾用作集合点。"
+
+msgid "wires run overhead, corroded and useless."
+msgstr "头顶的电线锈蚀失效。"
